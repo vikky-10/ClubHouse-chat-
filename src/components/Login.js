@@ -1,34 +1,38 @@
 import React from "react";
-import { GoogleOutlined, FacebookOutlined } from "@ant-design/icons";
+
+import { GoogleOutlined, GithubOutlined } from "@ant-design/icons";
+
 import firebase from "firebase/app";
+
 import { auth } from "../firebase";
-const Login = () => {
+
+export default function Login() {
   return (
     <div id="login-page">
       <div id="login-card">
         <h2>Welcome to ClubHouse!</h2>
+
         <div
           className="login-button google"
-          onClick={() =>
-            auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())
-          }
-        >
-          <GoogleOutlined />
-          <span>Sign In with Google</span>
-        </div>
-        <br></br>
-        <br />
-        <div
-          className="login-button facebook"
           onClick={() =>
             auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())
           }
         >
-          <FacebookOutlined />
-          <span>Sign In with Facebook</span>
+          <GoogleOutlined /> Sign In with Google
+        </div>
+
+        <br />
+        <br />
+
+        <div
+          className="login-button facebook"
+          onClick={() =>
+            auth.signInWithPopup(new firebase.auth.GithubAuthProvider())
+          }
+        >
+          <GithubOutlined /> Sign In with github
         </div>
       </div>
     </div>
   );
-};
-export default Login;
+}

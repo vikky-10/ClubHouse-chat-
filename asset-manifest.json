@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ClubHouse-chat-/static/css/main.9befea04.chunk.css",
+    "main.js": "/ClubHouse-chat-/static/js/main.76a4d5bd.chunk.js",
+    "main.js.map": "/ClubHouse-chat-/static/js/main.76a4d5bd.chunk.js.map",
+    "runtime-main.js": "/ClubHouse-chat-/static/js/runtime-main.6d410584.js",
+    "runtime-main.js.map": "/ClubHouse-chat-/static/js/runtime-main.6d410584.js.map",
+    "static/css/2.f83b9687.chunk.css": "/ClubHouse-chat-/static/css/2.f83b9687.chunk.css",
+    "static/js/2.1a096b4d.chunk.js": "/ClubHouse-chat-/static/js/2.1a096b4d.chunk.js",
+    "static/js/2.1a096b4d.chunk.js.map": "/ClubHouse-chat-/static/js/2.1a096b4d.chunk.js.map",
+    "index.html": "/ClubHouse-chat-/index.html",
+    "static/css/2.f83b9687.chunk.css.map": "/ClubHouse-chat-/static/css/2.f83b9687.chunk.css.map",
+    "static/css/main.9befea04.chunk.css.map": "/ClubHouse-chat-/static/css/main.9befea04.chunk.css.map",
+    "static/js/2.1a096b4d.chunk.js.LICENSE.txt": "/ClubHouse-chat-/static/js/2.1a096b4d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d410584.js",
+    "static/css/2.f83b9687.chunk.css",
+    "static/js/2.1a096b4d.chunk.js",
+    "static/css/main.9befea04.chunk.css",
+    "static/js/main.76a4d5bd.chunk.js"
+  ]
+}
